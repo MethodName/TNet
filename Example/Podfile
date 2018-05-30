@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TNet_Example' do
+  pod 'TNet', :path => '../'
+
+  target 'TNet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
