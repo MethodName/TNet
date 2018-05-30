@@ -1,0 +1,6 @@
+framework module Pods_TNet_Example {
+  umbrella header "Pods-TNet_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

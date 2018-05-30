@@ -1,0 +1,6 @@
+framework module TNet {
+  umbrella header "TNet-umbrella.h"
+
+  export *
+  module * { export * }
+}

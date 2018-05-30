@@ -1,0 +1,6 @@
+framework module Pods_TNet_Tests {
+  umbrella header "Pods-TNet_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
