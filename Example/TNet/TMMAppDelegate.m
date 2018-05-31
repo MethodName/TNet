@@ -22,11 +22,11 @@
 
 -(NSString *)AES256Key
 {
-    return @"key";
+    return @"";
 }
 -(NSString *)DECKey
 {
-    return @"HiSenhao";
+    return @"";
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
