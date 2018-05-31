@@ -7,8 +7,9 @@
 //
 
 @import UIKit;
+#import "TMMSecurity.h"
 
-@interface TMMAppDelegate : UIResponder <UIApplicationDelegate>
+@interface TMMAppDelegate : UIResponder <UIApplicationDelegate,TMMSecurityDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

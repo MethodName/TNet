@@ -14,11 +14,11 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - TNet (0.1.0):
-    - AFNetworking (~> 3.2.1)
+  - TNet (0.1.1):
+    - AFNetworking (~> 3.2.0)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.2.1)
+  - AFNetworking (~> 3.2.0)
   - TNet (from `../`)
 
 SPEC REPOS:
@@ -31,8 +31,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  TNet: 2afd80b3189755205506f10bb9dd8cd5f3fc59bc
+  TNet: 7160bd373ab3a9efdbaed0d41db530189f7936c4
 
-PODFILE CHECKSUM: f64266ff791d0077d06d76db0023c95e03eadd4f
+PODFILE CHECKSUM: 28229915aa4071c2881b421fc52492e17cfbe692
 
 COCOAPODS: 1.5.3

@@ -8,12 +8,25 @@
 
 #import "TMMAppDelegate.h"
 
+
 @implementation TMMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [TMMSecurity standardSecurity].delegate = self;
+    
     return YES;
+}
+
+-(NSString *)AES256Key
+{
+    return @"key";
+}
+-(NSString *)DECKey
+{
+    return @"HiSenhao";
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
