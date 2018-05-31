@@ -22,7 +22,7 @@ pod 'TNet'
 
 ## Author
 
-methodname@qq.com, methodname@qq.com
+Methodname
 
 ## License
 
